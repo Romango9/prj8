@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[DRYRUN_RS2] (
+    [D1] INT NULL
+);
+
+
+GO
+
