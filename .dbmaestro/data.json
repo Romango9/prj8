@@ -5,7 +5,25 @@
         "ProjectId": "16993353-3411-483b-a0d6-81a3ea546086",
         "ProjectName": "project8",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "eab494c3-4bfb-4c65-b9ef-c4dda43e797b",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "a3a1db69-dd4d-43e7-b568-91c5282eb9ee",
+                "DatabaseAliasName": "prj8",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=1.0.0.7850, Culture=neutral, PublicKeyToken=null",
+                  "RemoteRepositoryURL": "https://github.com/Romango9/prj8.git",
+                  "BranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -20,7 +38,24 @@
       "UserData": [
         {
           "UserName": "Romango9",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "a3a1db69-dd4d-43e7-b568-91c5282eb9ee",
+              "DatabaseAliasName": "prj8",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "WIN-PO2V695ABT7",
+                "AuthenticationType": 1,
+                "Username": "Roman",
+                "Password": "YGqSzF4H3l3mxsMIWwuSHg==",
+                "DatabaseName": "DEV"
+              },
+              "RepositoryCredentials": {
+                "UserName": "Romango9",
+                "Password": "klUhQ17gJdnk7NDV6xzo4a5SwwqhR2PcBY3dc0UGBbYTBKsw7MH0hVb4Y0DUt4eP"
+              }
+            }
+          ]
         }
       ]
     }
