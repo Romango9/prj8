@@ -1,0 +1,5 @@
+CREATE USER [romanG] WITHOUT LOGIN;
+
+
+GO
+

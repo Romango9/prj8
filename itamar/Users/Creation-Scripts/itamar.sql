@@ -1,0 +1,5 @@
+CREATE USER [itamar] WITHOUT LOGIN;
+
+
+GO
+
